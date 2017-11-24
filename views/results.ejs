@@ -1,0 +1,8 @@
+<h1>Results Page !!! </h1>
+<ul>
+<% data["Search"].forEach(function (t) { %>
+    <li><h1><%=t["Title"]%></h1>-<h4><%=t["Year"]%></h4></li>
+    <img src="<%=t["Poster"]%>" alt="">
+<%});%>
+</ul>
+<a href="/">Search Again</a>
